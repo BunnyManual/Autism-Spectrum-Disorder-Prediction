@@ -1,3 +1,5 @@
+Authors: Bunny Manual Prattipati and Chaitanya Sree Satya Pasumarthi
+
 # Autism Spectrum Disorder Prediction
 
 ## 1. Introduction
