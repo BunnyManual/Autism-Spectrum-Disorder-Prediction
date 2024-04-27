@@ -80,7 +80,7 @@ In this project, we performed an extensive exploratory data analysis to understa
 
 - **Correlation**: We created a correlation matrix to understand if some features are strongly correlated. This information can be useful for feature selection and engineering. The heatmap shows the correlation between different variables in your dataset. The variables include "A1_Score" through "A10_Score," "age," "gender," "ethnicity," "jaundice," "austim," "country_of_res," and others. Each square in the heatmap represents the correlation between two variables, with the color indicating the strength and direction of the correlation. Most squares are in shades of blue, indicating varying degrees of positive correlation, while some squares are in red, indicating negative correlations.
 
-![alt text](<corr matrix-1.png>)
+![corr matrix](https://github.com/BunnyManual/Autism-Spectrum-Disorder-Prediction/assets/121247496/b405c013-e48a-46db-9898-46b76f58c48a)
 
 - **Feature Importance**: Feature importance was evaluated using the feature importances provided by the Random Forest model.
 
@@ -90,7 +90,7 @@ In this project, we performed an extensive exploratory data analysis to understa
 
 - **Score Distributions**: We plotted a series of bar graphs, each representing score distributions for different AI scores from AI_Score Distribution to AI9_Score Distribution. The x-axis of each graph represents score ranges, while the y-axis represents the frequency or count of those scores. The bars in each graph are colored in shades of green, with darker greens indicating higher scores or counts.
 
-![alt text](output-5.png)
+![output](https://github.com/BunnyManual/Autism-Spectrum-Disorder-Prediction/assets/121247496/6ae1f75c-3426-4c70-945d-f0df097f0ccb)
 
 ## 6. Data Preprocessing
 
@@ -122,7 +122,7 @@ We used Synthetic Minority Over-sampling Technique (SMOTE) to handle the imbalan
 
 Before applying SMOTE, the target variable was imbalanced. This was evident in the "Class Distribution Before SMOTE" bar chart, which showed a higher count for class '0' compared to class '1'.
 
-![alt text](output-1-1.png)
+![output-1](https://github.com/BunnyManual/Autism-Spectrum-Disorder-Prediction/assets/121247496/ca128bab-80c5-4586-9523-a0f006bc1a49)
 
 ## 9. Model Evaluation and Validation
 
@@ -169,7 +169,7 @@ The performance of the models was evaluated under three scenarios: without SMOTE
          [ 10  23]]
         ```
 
-![alt text](output-2-1.png)
+![output-2](https://github.com/BunnyManual/Autism-Spectrum-Disorder-Prediction/assets/121247496/ed0aba98-abeb-41d2-a5a9-9a858896bbe5)
 
 - **With SMOTE**: 
     - Random Forest: 0.9053400735294119
@@ -200,7 +200,7 @@ The performance of the models was evaluated under three scenarios: without SMOTE
          [  7 121]]
         ```
 
-![alt text](output-3-1.png)
+![output-3](https://github.com/BunnyManual/Autism-Spectrum-Disorder-Prediction/assets/121247496/8a79b7c6-1e53-440f-ac13-e8116969688a)
 
 - **With SMOTE and Sampling Strategy**: 
     - Random Forest: 0.8937771281778722
@@ -231,7 +231,7 @@ The performance of the models was evaluated under three scenarios: without SMOTE
          [ 12  73]]
         ```
 
-![alt text](output-4-1.png)
+![output-4](https://github.com/BunnyManual/Autism-Spectrum-Disorder-Prediction/assets/121247496/e5a469d7-e9d6-4080-8e06-cd06da6d99fc)
 
 The bar charts titled "Comparison of Model Performance - Without SMOTE", "Comparison of Model Performance - With SMOTE", and "Comparison of Model Performance - With SMOTE and Sampling Strategy" visually represent these results.
 
