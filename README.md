@@ -262,7 +262,3 @@ While the models in this project have shown promising results, there are several
 - **Model Stacking or Ensemble Methods**: Combining the predictions of multiple models could potentially improve performance. Techniques like stacking, bagging, or boosting could be used.
 
 - **Data Augmentation**: For imbalanced datasets, more sophisticated techniques for oversampling the minority class or undersampling the majority class could be used. This could help improve the models' performance on the minority class.
-
-## 12. Acknowledgements
-
-We would like to thank the providers of the dataset for making this project possible. We would also like to thank our peers for their valuable feedback and suggestions throughout the project.
